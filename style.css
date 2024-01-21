@@ -1,0 +1,177 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 900;
+    padding-top: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    margin: 1rem 0rem;
+    border-radius: 0.5rem;
+    width: fit-content;
+    border-style: none;
+    font-weight: 900;
+}
+
+.only-paws {
+    color: rgb(255,0,200);
+}
+
+.container {
+    width: 80vw;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dark-background {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.grey-background {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 1000;
+}
+
+.header {
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.header-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.hero-section {
+    display: flex;
+    gap: 4rem;
+    padding: 4rem;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.hero-content button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 1rem 2rem;
+}
+
+.cards-section {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+}
+
+.card {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-image {
+    border-color: #3882F6;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 16px;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.card .text {
+    text-align: center;
+    font-size: 0.9rem;
+    max-width: 250px;
+    padding: 1rem 0rem;
+}
+
+.testimonial-section {
+    font-size: 2.2rem;
+    font-style: italic;
+    font-weight: 100;
+    padding: 2rem 0rem;
+}
+
+blockquote footer {
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.cta-section {
+    background-color: #3882f6;
+    border-radius: 0.5rem;
+    color: #F9FAF8;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 2rem 5rem;
+}
+
+.cta-banner {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    width: 100%;
+}
+
+.cta-banner button {
+    background-color: transparent;
+    color: #F9FAF8;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #F9FAF8;
+    padding: 0.5rem 3rem;
+}
+
+.footer {
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 1.5rem 0rem;
+}
